@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tạo tài khoản mới</title>
+    <link rel="stylesheet" href="fbCSS.css">
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>facebook</h1>
+    </header>
+    <main>
+        <form class="registration-form">
+            <h2>Tạo tài khoản mới</h2>
+            <p>Nhanh chóng và dễ dàng.</p>
+            <div class="input-group">
+                <input type="text" placeholder="Họ" required>
+                <input type="text" placeholder="Tên" required>
+            </div>
+            <input type="text" placeholder="Số di động hoặc email" required>
+            <input type="password" placeholder="Mật khẩu mới" required>
+            <div class="input-group">
+                <label for="dob">Ngày sinh</label>
+                <div class="dob-selects">
+                    <select id="dob-day" required>
+                        <option value="26">26</option>
+                        <!-- Add more options as needed -->
+                    </select>
+                    <select id="dob-month" required>
+                        <option value="5">Tháng 5</option>
+                        <!-- Add more options as needed -->
+                    </select>
+                    <select id="dob-year" required>
+                        <option value="2024">2024</option>
+                        <!-- Add more options as needed -->
+                    </select>
+                </div>
+            </div>
+            <div class="input-group">
+                <label for="gender">Giới tính</label>
+                <label><input type="radio" name="gender" value="Nữ" required> Nữ</label>
+                <label><input type="radio" name="gender" value="Nam" required> Nam</label>
+                <label><input type="radio" name="gender" value="Tùy chỉnh" required> Tùy chỉnh</label>
+            </div>
+            <p class="policy">
+                Những người dùng dịch vụ của chúng tôi có thể đã tải thông tin liên hệ của bạn lên Facebook. <a href="#">Tìm hiểu thêm.</a>
+            </p>
+            <p class="terms">
+                Bằng cách nhấp vào Đăng ký, bạn đồng ý với <a href="#">Điều khoản</a>, <a href="#">Chính sách quyền riêng tư</a> và <a href="#">Chính sách cookie</a> của chúng tôi. Bạn có thể nhận được thông báo của chúng tôi qua SMS và hủy nhận bất kỳ lúc nào.
+            </p>
+            <button type="submit" class="register-btn">Đăng ký</button>
+            <a href="#" class="login-link">Bạn đã có tài khoản ư?</a>
+        </form>
+    </main>
+</div>
+</body>
+</html>

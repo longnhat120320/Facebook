@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+header h1 {
+    color: #1877f2;
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+.registration-form {
+    background-color: white;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.registration-form h2 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.registration-form p {
+    color: #606770;
+    margin-bottom: 1em;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+    text-align: left;
+}
+
+.input-group input, .input-group select {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #dddfe2;
+    border-radius: 4px;
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+
+.dob-selects {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dob-selects select {
+    width: 32%;
+}
+
+.registration-form label {
+    margin-bottom: 0.5em;
+}
+
+.policy, .terms {
+    font-size: 0.9em;
+    color: #606770;
+    text-align: left;
+    margin-bottom: 1em;
+}
+
+.policy a, .terms a {
+    color: #1877f2;
+    text-decoration: none;
+}
+
+.register-btn {
+    background-color: #42b72a;
+    color: white;
+    border: none;
+    padding: 0.7em;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.login-link {
+    display: block;
+    color: #1877f2;
+    text-decoration: none;
+    font-size: 0.9em;
+}
